@@ -38,7 +38,7 @@ jobs:
 
     - name: Build the App
       run: |
-          npm ci
+          npm install
           npm run build
           npm test
 
