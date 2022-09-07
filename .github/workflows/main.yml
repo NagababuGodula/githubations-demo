@@ -1,6 +1,6 @@
 # This workflow will build and push a new container image to ACR and deploy ACI
 
-name: Dev Build and Deployment
+name: Docker Build and push
 
 on:
   push:
