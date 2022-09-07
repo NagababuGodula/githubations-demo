@@ -11,6 +11,8 @@ on:
 
 env:
   CI: ""
+  DoCKER_REPO: nagababu152/github-demo
+  TAG: latest
 
 permissions:
   packages: write
@@ -39,4 +41,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: nagababu152/github-demo:latest
+        tags: ${{ DoCKER_REPO }}:${{ TAG }}
