@@ -38,7 +38,8 @@ jobs:
 
     - name: Build the App
       run: |
-          npm test
+          npm install
+          npm start
 
   build-and-push:
     name: Build Image & Push to Docker Hub
